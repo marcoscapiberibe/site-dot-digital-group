@@ -9,12 +9,20 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+	/* width: 940px; */
+	/* margin: 0 auto; */
 }
 
 
+
+/* Cabeçalho */
 #cabecalho {
-    margin: 0px auto;
-    height: 910px;
+    height: 768px;
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
 }
 
 
@@ -23,7 +31,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:space-between;
+    justify-content: center;
 
 
 }
@@ -59,5 +67,23 @@ body {
     background-size: cover;
     background-position: center;
     position: absolute;
-    overflow: hidden;
+}
+
+
+
+/* Conteúdo */
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-top: 2em; */
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
