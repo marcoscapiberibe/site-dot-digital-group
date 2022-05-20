@@ -115,14 +115,52 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
+}
+
+.conteudo2-principal {
+    margin-top: 37px;
+    margin-bottom: 37px;
+    margin-left: 100px;
+    
+}
+
+.conteudo2-imagem {
+    margin-right: 75px;
+}
+
+.conteudo-texto {
+    margin-right: 100px;
+}
+
+.conteudo2-titulo {
+    font-size: 2.3em;
+    font-weight: 700;
+    font-family: 'Roboto';
+}
+
+.conteudo2-item {
+    font-family: 'Roboto';
+    line-height: 20px;
+}
+
+.conteudo2-item-negrito {
+    font-family: 'Roboto';
+    line-height: 20px;
+    font-weight: bold;
 }
 
 
 /* Rodapé */
-.footer {
+footer {
+
+}
+
+.footer-conteudo {
     color: #ffffff;
     background-color: #454545;
     font-size: 30px;
     font-weight: 700;
     text-align: center;
+    padding: 45px;
 }
