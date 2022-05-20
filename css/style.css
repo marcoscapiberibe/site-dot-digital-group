@@ -164,3 +164,66 @@ footer {
     text-align: center;
     padding: 45px;
 }
+
+
+
+/* Responsividade */
+
+@media screen and (max-width: 768px)  {
+    .cabecalho-principal {
+        order: -1;
+        position: relative;
+    }
+
+    .cabecalho-titulo {
+        position: relative;
+    }
+    .cabecalho-item {
+        position: relative;
+    }
+    
+    .cabecalho-imagem {
+        height: 100%;
+        width: 100%;
+        background-image: url(../imagens/camada1mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        /* position: relative; */
+    }
+    
+
+
+
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
+    .conteudo2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+
+    .conteudo2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .conteudo2-imagem {
+        width: 100%;
+        height: 100%;
+    }
+
+    }
+
+}
