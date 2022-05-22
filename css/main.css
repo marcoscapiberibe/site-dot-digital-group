@@ -78,20 +78,22 @@
     font-weight: bold;
 }
 
-.conteudo-imagem2 {
+.conteudo-principal .conteudo-imagem2 {
     display: none;
 }
 
-.conteudo2-imagem2 {
+.conteudo2-principal2 {
     display: none;
 }
+
+
 
 @media screen and (max-width: 768px)  {
     .conteudo-principal .conteudo-imagem {
         display: none;
     }
     
-    .conteudo2-principal .conteudo2-imagem {
+    .conteudo2-principal {
         display: none;
     }
 
