@@ -49,29 +49,59 @@
 
 }
 
+/* .cabecalho-principal-mobile {
+    display: none;
+} */
+
 
 
 @media screen and (max-width: 768px)  {
-    .cabecalho-principal {
-        order: -1;
-        position: relative;
+    #cabecalho {
+        height: auto;
+        width: 100%;
+        background-color: #454545;
+    
+    } 
+
+    .cabecalho-imagem {
+        display: none;
+    }    
+
+
+    .cabecalho-principal-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
     }
 
-    .cabecalho-titulo {
-        position: relative;
-    }
-    .cabecalho-item {
-        position: relative;
-    }
-    
-    .cabecalho-imagem {
-        height: 100%;
+    .cabecalho-imagem-mobile {
         width: 100%;
-        background-image: url(../imagens/camada1mobile.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        /* position: relative; */
+
     }
+
+    .cabecalho-titulo-mobile {
+        color:black;
+        text-align: center;
+        margin-top: 14px;
+        font-size: 40px;
+        font-weight: 700;
+        font-family: 'Roboto';
+        color: #fefefe;
+        line-height: 90px;
+        width: 75%;
+    }
+
+    .cabecalho-item-mobile {
+        text-align: center;
+        color: #ffffff;
+        font-size: 1.5em;
+        font-weight: 700;
+        font-family: 'Roboto';
+        margin-bottom: 14px;
+        width: 75%;
+    
+    }
+
 
 }
