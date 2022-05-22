@@ -1,0 +1,20 @@
+/* Rodapé */
+footer {
+
+}
+
+.footer-conteudo {
+    color: #ffffff;
+    background-color: #454545;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding: 45px;
+}
+
+
+
+@media screen and (max-width: 768px)  {
+    
+
+}

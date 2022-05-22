@@ -12,30 +12,3 @@ body {
 	/* width: 940px; */
 	/* margin: 0 auto; */
 }
-
-
-
-
-/* Rodapé */
-footer {
-
-}
-
-.footer-conteudo {
-    color: #ffffff;
-    background-color: #454545;
-    font-size: 30px;
-    font-weight: 700;
-    text-align: center;
-    padding: 45px;
-}
-
-
-
-/* Responsividade */
-
-@media screen and (max-width: 768px)  {
-    
-    
-
-}
