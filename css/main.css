@@ -78,9 +78,23 @@
     font-weight: bold;
 }
 
+.conteudo-imagem2 {
+    display: none;
+}
 
+.conteudo2-imagem2 {
+    display: none;
+}
 
 @media screen and (max-width: 768px)  {
+    .conteudo-principal .conteudo-imagem {
+        display: none;
+    }
+    
+    .conteudo2-principal .conteudo2-imagem {
+        display: none;
+    }
+
     .conteudo {
         display: flex;
         flex-direction: column;
@@ -88,21 +102,12 @@
         justify-content: space-around;
     }
 
-    .conteudo-principal .conteudo-imagem {
-        display: none;
-    }
-
-
     .conteudo2 {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     
-    }
-
-    .conteudo2-principal .conteudo2-imagem {
-        display: none;
     }
 
     .conteudo2-imagem2 {
