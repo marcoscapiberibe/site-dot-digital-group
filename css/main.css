@@ -82,7 +82,7 @@
     display: none;
 }
 
-.conteudo2-principal2 {
+.conteudo2-principal .conteudo2-imagem2 {
     display: none;
 }
 
@@ -112,9 +112,12 @@
     
     }
 
+    .conteudo-imagem2{
+        display: block !important;
+    }
+
     .conteudo2-imagem2 {
-        width: 100%;
-        height: 100%;
+        display: block !important;
     }
 
     
