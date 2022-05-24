@@ -1,7 +1,4 @@
 /* Rodapé */
-footer {
-
-}
 
 .footer-conteudo {
     color: #ffffff;
@@ -10,11 +7,4 @@ footer {
     font-weight: 700;
     text-align: center;
     padding: 45px;
-}
-
-
-
-@media screen and (max-width: 768px)  {
-    
-
 }
