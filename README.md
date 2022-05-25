@@ -4,7 +4,7 @@ Site simples com responsividade.
 
 # Sobre o projeto
 
-Este projeto consiste em um Site simples desenvolvido com HTML e CSS.
+Este projeto consiste em um Site simples desenvolvido com HTML e CSS, utilizando bastante as propriedades do Flexbox.
 
 # Tecnologias utilizadas
 
