@@ -6,6 +6,9 @@ Site simples com responsividade.
 
 Este projeto consiste em um Site simples desenvolvido com HTML e CSS, utilizando bastante as propriedades do Flexbox.
 
+![Site-DOT-DIgital-Inovation](https://user-images.githubusercontent.com/96851717/173711071-79a162c1-e635-47a9-8f86-5d9271c9772a.jpeg)
+
+
 # Tecnologias utilizadas
 
 * HTML
